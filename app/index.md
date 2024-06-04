@@ -7,7 +7,7 @@ pagination:
   reverse: true
   size: 50
 posts:
-  title: Hello World :D
+  title: Hello World :D Trying again ;D
 eleventyComputed:
   eleventyNavigation:
     key: home
