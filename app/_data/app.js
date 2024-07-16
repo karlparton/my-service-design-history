@@ -1,3 +1,3 @@
 module.exports = {
-  productName: 'My design history'
+  productName: 'Interaction Designer (IxD)'
 }

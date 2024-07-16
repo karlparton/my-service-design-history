@@ -3,7 +3,7 @@
   <div class="govuk-header__container govuk-width-container app-header__container">
     <div class="govuk-header__logo app-header__logo">
       <a href="{{ params.homepageUrl | default('/') }}" class="govuk-header__link govuk-header__link--homepage">
-        <span class="govuk-header__logotype">
+        <!-- <span class="govuk-header__logotype">
           {#- We use an inline SVG for the crown so that we can cascade the
           currentColor into the crown whilst continuing to support older browsers
           which do not support external SVGs without a Javascript polyfill. This
@@ -37,8 +37,9 @@
             interpreted as such, displaying the fallback image. #}
             <image src="/assets/images/govuk-logotype-crown.png" xlink:href="" class="govuk-header__logotype-crown-fallback-image" width="36" height="32"></image>
           </svg>
+          -->
           <span class="govuk-header__logotype-text">
-            GOV.UK
+            KARL PARTON
           </span>
         </span>
         {% if (params.productName) %}
@@ -48,8 +49,9 @@
         {% endif %}
       </a>
     </div>
-    {{ appSiteSearch({
+    <!-- {{ appSiteSearch({
       label: "Search design history"
     }) | indent(4) | trim }}
+    -->
   </div>
 </header>
